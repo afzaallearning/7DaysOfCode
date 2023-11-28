@@ -54,4 +54,4 @@ jobs:
           app-name: '7daysofCode-shazilhamzah'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_795C73ABA3EE485EAA23701816F32B07 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B91C2DCAAF0244078B85F005CCE4AAF0 }}
