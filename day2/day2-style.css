@@ -1,0 +1,59 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  form.personal {
+    width: 60%;
+    border-radius: 5px;
+  }
+  
+  form.personal p {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form.quiz1,
+  form.quiz2,
+  form.quiz3 {
+    margin: 20px    ;
+    width: 40%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+  }
+  
+  form.quiz1 input[type="radio"],
+  form.quiz2 input[type="radio"],
+  form.quiz3 input[type="radio"] {
+    margin-bottom: 10px;
+  }
+  
+  button#submit {
+
+    margin: 50px ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
